@@ -1,38 +1,81 @@
-.App {
+/* styles.css */
+
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dashboard, .student-page, .faculty-page, .course-page {
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #007BFF;
   color: white;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+  padding: 5px;
+  margin: 10px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* StudentPage.css */
+.student-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.student-page input {
+  padding: 8px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.student-page button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.student-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.student-page li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.student-page li button {
+  background-color: #dc3545;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
 }

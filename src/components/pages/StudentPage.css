@@ -1,0 +1,40 @@
+
+.student-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .student-page input {
+    padding: 8px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  .student-page button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .student-page ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .student-page li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .student-page li button {
+    background-color: #dc3545;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  

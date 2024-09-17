@@ -1,0 +1,40 @@
+
+.course-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .course-page input {
+    padding: 8px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  .course-page button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .course-page ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .course-page li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .course-page li button {
+    background-color: #dc3545;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
